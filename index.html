@@ -3,12 +3,22 @@ layout: default
 title: Proventa IT-Status
 ---
 
+{% for post in site.posts limit:4 %}
+
 <article>
         <a href="{{ post.url }}"><h2 class="title">{{ post.title }}</h2></a>
         <div class="content">
         <time>{{ post.date | date_to_string }}</time>
         </div>
 </article>
+
+{% endfor %}
+
+<br>
+
+<aside>
+        <a href="/posts" class="white item">More Posts</a>
+</aside>
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
