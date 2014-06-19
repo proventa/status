@@ -11,7 +11,7 @@ layout: default
     {{ content }}
     <hr>
     <time>
-      {{ page.date | date_to_string }}
+      {{ page.date | date: '%K:%M %-d %b %Y' }}
     </time>
   </div>
 </article>

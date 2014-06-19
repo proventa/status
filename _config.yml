@@ -4,6 +4,7 @@ email: it-helpdesk@proventa.de
 description: "IT-Status der Proventa AG"
 baseurl: ""
 url: "https://it-status.proventa.de"
+author: "IT Admins Proventa"
 
 # Build settings
 markdown: kramdown
