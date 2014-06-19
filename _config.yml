@@ -10,5 +10,5 @@ author: "IT Admins Proventa"
 markdown: kramdown
 permalink: pretty
 
-include: .htaccess
+include: [.htaccess]
 timezone: Etc/UTC
