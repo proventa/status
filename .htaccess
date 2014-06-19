@@ -6,3 +6,5 @@ AuthLDAPBindDN cn=status,ou=services,dc=proventa-ag,dc=biz
 AuthLDAPBindPassword UB7Voo2cOtVuc2KVsKGb
 
 Require ldap-group cn=adm,ou=groups,dc=proventa-ag,dc=biz
+
+ErrorDocument 401 /public_status.html
