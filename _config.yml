@@ -9,3 +9,6 @@ author: "IT Admins Proventa"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+include: .htaccess
+timezone: Etc/UTC

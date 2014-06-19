@@ -1,0 +1,8 @@
+AuthName "LDAP Auth"
+AuthType basic
+AuthBasicProvider ldap
+AuthLDAPURL ldaps://ldap.proventa-ag.biz/ou=users,dc=proventa-ag,dc=biz?uid
+AuthLDAPBindDN cn=status,ou=services,dc=proventa-ag,dc=biz
+AuthLDAPBindPassword UB7Voo2cOtVuc2KVsKGb
+
+Require ldap-group cn=adm,ou=groups,dc=proventa-ag,dc=biz
