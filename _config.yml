@@ -1,7 +1,7 @@
 # Site settings
 name: Proventa IT-Status
 email: it-helpdesk@proventa.de
-description: "IT-Status der Proventa AG"
+description: "Hier informieren wir über Störungen und Änderungen an der IT-Infrastruktur der Proventa AG. Bei Fragen wendet euch bitte an it-heldesk@proventa.de."
 baseurl: ""
 url: "https://it-status.proventa.de"
 author: "IT Admins Proventa"
