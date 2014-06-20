@@ -3,7 +3,7 @@ layout: default
 title: Proventa IT-Status
 ---
 
-{% for post in site.posts limit:4 %}
+{% for post in site.categories[active] limit:10 %}
 
 <article>
         <a href="{{ post.url }}"><h2 class="title">{{ post.title }}</h2></a>
