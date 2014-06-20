@@ -3,7 +3,7 @@ layout: default
 title: Proventa IT-Status
 ---
 
-{% if site.categories.active.empty %}
+{% if site.categories.active | size == 0 %}
  <article class="done">
         <h2 class="title">Alles ist in bester ordnung</h2>
         <div class="content">
