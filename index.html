@@ -14,7 +14,7 @@ title: Proventa IT-Status
 {% else %}
 {% for post in site.categories.active limit:10 %}
 
-<article>
+<article class="{{post.categories | join: ' '}}">
         <a href="{{ post.url }}"><h2 class="title">{{ post.title }}</h2></a>
         <div class="content">
         {{ post.content }}
