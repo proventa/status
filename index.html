@@ -3,6 +3,15 @@ layout: default
 title: Proventa IT-Status
 ---
 
+{% if site.categories.active.empty %}
+ <article class="done">
+        <h2 class="title">Alles ist in bester ordnung</h2>
+        <div class="content">
+          Uns sind zur zeit keine Fehler bekannt. Bei Störungen bitte wenden Sie sich an it-helpdesk@proventa.de.
+        </div>
+</article>
+
+{% else %}
 {% for post in site.categories.active limit:10 %}
 
 <article>
@@ -16,6 +25,7 @@ title: Proventa IT-Status
 
 {% endfor %}
 
+{% endif %}
 <br>
 
 <aside>
