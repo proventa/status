@@ -30,6 +30,10 @@ article {
     background: #fff;
 }
 
+article.done h2{
+  background: green;
+}
+
 time {
     color: #a5a5a5;
     display: block;
