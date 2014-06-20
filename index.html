@@ -3,8 +3,8 @@ layout: default
 title: Proventa IT-Status
 ---
 
-{% if site.categories.active | size == 0 %}
- <article class="done">
+{% if {{site.categories.active | size}} == 0 %}
+<article class="done">
         <h2 class="title">Alles ist in bester ordnung</h2>
         <div class="content">
           Uns sind zur zeit keine Fehler bekannt. Bei Störungen bitte wenden Sie sich an it-helpdesk@proventa.de.
