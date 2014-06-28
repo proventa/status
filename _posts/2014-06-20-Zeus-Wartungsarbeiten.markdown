@@ -2,7 +2,7 @@
 layout: post
 title:  "Wartungsarbeiten an Zeus"
 date:   2014-06-20 12:00:00
-categories: active
+categories: active done
 ---
 Von Samstag 21.6. 16 Uhr bis Sonntag Nachmittag werden folgende Dienste nicht erreichbar sein:
 
