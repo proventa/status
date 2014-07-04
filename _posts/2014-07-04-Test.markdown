@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wartungsarbeiten an Zeus"
+title:  "Wartungsarbeiten an der IT-Status-Seite"
 date:   2014-07-04 13:45:00
 categories: active
 ---
