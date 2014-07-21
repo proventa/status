@@ -9,4 +9,4 @@ Wir sind gerade dabei unser Backupsystem auf eine für das Gesamtsystem weniger 
 
 [06:00] Update:
 ---------------
-Der Kopievorgang ist abgeschlossen. Es sollte alles wieder seinen gewohnten Gang gehen.
+Der Kopievorgang ist abgeschlossen. Es sollte alles wieder seinen gewohnten Gang gehen. 
