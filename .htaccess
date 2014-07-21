@@ -9,3 +9,8 @@ Require ldap-group cn=adm,ou=groups,dc=proventa-ag,dc=biz
 Require ldap-group cn=human_users,ou=groups,dc=proventa-ag,dc=biz
 
 ErrorDocument 401 /public_status.html
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
