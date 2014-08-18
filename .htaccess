@@ -13,4 +13,4 @@ ErrorDocument 401 /public_status.html
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteCond %{ENV:HTTPS} !=on
-RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+RewriteRule .* https://%{SERVER_NAME} [R=301,L]
