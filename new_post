@@ -1,0 +1,24 @@
+#!/bin/sh
+date=`date '+%F'`
+time=`date '+%T'`
+echo -n "Title:"
+read title
+filetitle=$(echo $title | tr ' ' '-')
+file="_posts/${date}-${filetitle}.markdown"
+echo "Content (end with CTRL-d)"
+content=`cat`
+cat >$file <<EOF
+---
+layout: post
+title:  "$title"
+date:   $date $time
+categories: active
+---
+
+$content
+
+EOF
+
+git add .
+git commit -m "new post: $title"
+git push
