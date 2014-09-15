@@ -7,7 +7,6 @@ categories: done
 
 Wir haben ein Problem mit dem Redmine. Wir arbeiten daran.
 
-[12:00] update
---------------
+### [12:00] update
 
 Es müsste jetzt wieder gehen.

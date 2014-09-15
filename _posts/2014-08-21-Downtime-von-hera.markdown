@@ -10,7 +10,6 @@ Heute Abend ist ab 20 Uhr eine Downtime von unserem Server hera geplant. Vorraus
 * File Server (Hetzner)
 * Zabbix
 
-[23:30] Update:
----------------
+### [23:30] Update:
 
 Die Wartung war erfolgreich und der Server ist wieder erreichbar.

@@ -11,12 +11,10 @@ Von Samstag 21.6. 16 Uhr bis Sonntag Nachmittag werden folgende Dienste nicht er
 * Datenbanken
 * Proventa-News
 
-Hintergrund:
------------
+### Hintergrund:
 
 Unser Host-Server bekommt ein upgrade auf Ubuntu 14.04. Dies ist nicht der erste Host mit Ubuntu 14.04, sodass wir nicht mit einer längeren Downtime rechnen. 
 
-UPDATE:
--------
+### UPDATE:
 
 Wartungsarbeiten erfolgreich abgeschlossen, git und svn sind umgezogen.

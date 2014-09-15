@@ -7,7 +7,6 @@ categories: done
 
 Zur Zeit haben wir eine Störung unseres zentralen Mysql Servers wir sind bereits daran das zu beheben.
 
-[08:30] Update:
----------------
+### [08:30] Update:
 
 Wir konnten das Problem beheben. Es sollte alles wieder gehen.
