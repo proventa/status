@@ -4,9 +4,8 @@ time=`date '+%T'`
 echo -n "Title:"
 read title
 filetitle=$(echo $title | tr ' ' '-')
+tempfile=$(tempfile)
 file="_posts/${date}-${filetitle}.markdown"
-echo "Content (end with CTRL-d)"
-content=`cat`
 cat >$file <<EOF
 ---
 layout: post
@@ -15,10 +14,15 @@ date:   $date $time
 categories: active
 ---
 
-$content
-
 EOF
-
-git add .
-git commit -m "new post: $title"
-git push
+cp $file $tempfile
+editor $file
+if diff -q $file $tempfile >/dev/null; then
+  git add .
+  git commit -m "new post: $title"
+  git push
+else
+  echo "file not changed. aborting..."
+  rm $file
+fi
+rm $tempfile
