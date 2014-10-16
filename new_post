@@ -1,12 +1,18 @@
 #!/bin/sh
 date=`date '+%F'`
 time=`date '+%T'`
-echo -n "Title:"
-read title
+title="$1"
+if [ -z "$title" ]; then
+  echo -n "Title:"
+  read title
+fi
 filetitle=$(echo $title | tr ' ' '-')
+tempfile=$(tempfile)
 file="_posts/${date}-${filetitle}.markdown"
-echo "Content (end with CTRL-d)"
-content=`cat`
+editor="nano"
+if [ -n "$VISUAL" ]; then
+    editor=$VISUAL
+fi
 cat >$file <<EOF
 ---
 layout: post
@@ -15,10 +21,15 @@ date:   $date $time
 categories: active
 ---
 
-$content
-
 EOF
-
-git add .
-git commit -m "new post: $title"
-git push
+cp $file $tempfile
+$editor +100 $file
+if diff -q $file $tempfile >/dev/null; then
+  echo "file not changed. aborting..."
+  rm $file
+else
+  git add .
+  git commit -m "new post: $title"
+  git push
+fi
+rm $tempfile
