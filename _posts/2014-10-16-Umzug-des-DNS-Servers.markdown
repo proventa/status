@@ -6,5 +6,6 @@ categories: active
 ---
 
 Am Wochenende werden wir unseren neuen DNS-Server in Betrieb nehmen. Dadurch kann es zu Ausfällen in der Domain-Auflösung und der Zustellung von Systemnachrichten kommen. 
+
 Eure IT-Admins
 
