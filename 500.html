@@ -1,18 +1,13 @@
 ---
 layout: page
-title: 500
+title: Interner Fehler
 ---
-<h2 class="title">Interner Fehler</h2>
 <p>Es ist ein interner Fehler aufgetreten.</p>
-
-<article class="active">
-<div class="content">
+<p>
 {% assign category_size = site.categories.active | size %}
 {% if category_size == 0 %}
           Es sind zur Zeit noch keine Fehler gemeldet. Wenden Sie sich bitte an <a href="mailto:{{site.email}}">{{site.email}}</> und melden Sie uns den Fehler.
 {% else %}
           Es sind bereits Fehler gemeldet und wir Arbeiten an deren Lösung. Sollte das Problem längerfristig auftauchen wenden Sie sich bitte an <a href="mailto:{{site.email}}">{{site.email}}</> und melden Sie uns den Fehler.
 {% endif %}
-
-</div>
-</article>
+</p>

@@ -1,12 +1,10 @@
 ---
 layout: page
-title: 403
+title: Zugriff verweigert
 ---
-<h2 class="title">Zugriff verweigert</h2>
 <p>Sie sind nicht berechtigt diese Seite zu sehen.</p>
 
-<article class="active">
-<div class="content">
+<p>
 {% assign category_size = site.categories.active | size %}
 {% if category_size == 0 %}
           Es sind zur Zeit noch keine Fehler gemeldet. Sollten Sie einen Fehler melden wollen wenden Sie sich bitte an <a href="mailto:{{site.email}}">{{site.email}}</>.
@@ -14,5 +12,4 @@ title: 403
           Es sind bereits Fehler gemeldet und wir Arbeiten an deren Lösung. Sollte das Problem längerfristig auftauchen wenden Sie sich bitte an <a href="mailto:{{site.email}}">{{site.email}}</> und melden Sie uns den Fehler.
 {% endif %}
 
-</div>
-</article>
+</p>
