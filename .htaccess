@@ -8,6 +8,7 @@ AuthLDAPBindPassword UB7Voo2cOtVuc2KVsKGb
 Require ldap-group cn=adm,ou=groups,dc=proventa-ag,dc=biz
 Require ldap-group cn=human_users,ou=groups,dc=proventa-ag,dc=biz
 
+ErrorDocument 404 /404/
 ErrorDocument 401 /public_status.html
 ErrorDocument 500 /public_status.html
 
