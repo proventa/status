@@ -1,3 +1,8 @@
+SetEnvIf Request_URI ^/403/ noauth=1
+SetEnvIf Request_URI ^/500/ noauth=1
+SetEnvIf Request_URI ^/css/ noauth=1
+SetEnvIf Request_URI ^/src/image1.png noauth=1
+
 AuthName "LDAP Auth"
 AuthType basic
 AuthBasicProvider ldap
@@ -7,6 +12,13 @@ AuthLDAPBindPassword UB7Voo2cOtVuc2KVsKGb
 
 Require ldap-group cn=adm,ou=groups,dc=proventa-ag,dc=biz
 Require ldap-group cn=human_users,ou=groups,dc=proventa-ag,dc=biz
+
+# Here is where we allow/deny
+Order Deny,Allow
+Satisfy any
+Deny from all
+Require valid-user
+Allow from env=noauth
 
 ErrorDocument 404 /404/
 ErrorDocument 401 /403/
