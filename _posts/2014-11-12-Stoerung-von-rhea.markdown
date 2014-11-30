@@ -2,7 +2,7 @@
 layout: post
 title:  "Störung eines Teils der Infrastruktur"
 date:   2014-11-12 10:30:00
-categories: active
+categories: resolved
 ---
 
 wir arbeiten gerade daran.
@@ -21,6 +21,11 @@ idma-dev
 klotho
 wbms-dev-integration
 idma-dev-int
+
+update [11:30]
+==============
+
+Da die VPN Verbindung nicht dringen gebraucht wird ist diese vorerst deaktiviert worden.
 
 
 Viele Grüße
