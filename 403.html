@@ -3,13 +3,5 @@ layout: page
 title: Zugriff verweigert
 ---
 <p>Sie sind nicht berechtigt diese Seite zu sehen.</p>
-
-<p>
-{% assign category_size = site.categories.active | size %}
-{% if category_size == 0 %}
-          Es sind zur Zeit noch keine Fehler gemeldet. Sollten Sie einen Fehler melden wollen wenden Sie sich bitte an <a href="mailto:{{site.email}}">{{site.email}}</>.
-{% else %}
-          Es sind bereits Fehler gemeldet und wir Arbeiten an deren Lösung. Sollte das Problem längerfristig auftauchen wenden Sie sich bitte an <a href="mailto:{{site.email}}">{{site.email}}</> und melden Sie uns den Fehler.
-{% endif %}
-
-</p>
+<p>Sollten Sie ihr Passwort vergessen haben können Sie es mit unserem <a href="https://account.proventa-ag.biz/password/lost">Account management tool</a> zurücksetzen.</p>
+<p>Sollten Sie einen Fehler melden wollen können Sie das mit einer Mail an <a href="mailto:{{site.email}}">{{site.email}}</>.</p>
