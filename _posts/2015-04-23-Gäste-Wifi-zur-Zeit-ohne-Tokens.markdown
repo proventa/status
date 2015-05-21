@@ -2,7 +2,7 @@
 layout: post
 title:  "Gäste Wifi zur Zeit ohne Tokens"
 date:   2015-04-23 08:48:34
-categories: active
+categories: done
 ---
 
 Leider funktionieren die Tokens welche für das Gäste Wifi ausgelegt wurden zur Zeit nicht.
@@ -14,3 +14,9 @@ Wir informieren euch hier sobald die Tokens wieder funktionieren und neue ausgel
 
 mfg
 Euer IT-Helpdesk
+
+update:
+Das Gäste wifi ist jetzt wieder mit Vouchern aktiv. Es ist aber unverschlüsselt weil das sowieso keinen Unterschied macht.
+
+mfg
+Clemens Bergmann
