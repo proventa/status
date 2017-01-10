@@ -2,7 +2,7 @@
 layout: post
 title:  "LDAP instabil"
 date:   2015-08-11 11:47:59
-categories: active
+categories: done
 ---
 
 Liebe Kollegen,
