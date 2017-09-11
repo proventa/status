@@ -11,4 +11,6 @@ markdown: kramdown
 permalink: pretty
 
 include: [.htaccess, public_status.html]
+exclude: 
+  - vendor
 timezone: Etc/UTC
