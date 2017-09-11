@@ -5,12 +5,12 @@ cache:
   - vendor/
 
 before_script:
-  - bundle install --path vendor
+  - gem install jekyll
 
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - jekyll build -d public
   artifacts:
     paths:
     - public
@@ -20,7 +20,7 @@ pages:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+  - jekyll build -d test
   artifacts:
     paths:
     - test
