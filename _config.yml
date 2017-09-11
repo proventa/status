@@ -10,7 +10,11 @@ author: "IT Admins Proventa"
 markdown: kramdown
 permalink: pretty
 
-include: [.htaccess, public_status.html]
+include:
+  - .htaccess
+  - public_status.html
+  - css/main.css
+  - src/image1.css
 exclude: 
   - vendor
 timezone: Etc/UTC
