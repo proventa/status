@@ -1,8 +1,10 @@
-#!/bin/sh
-date=`date '+%F'`
-mayday_files=$(find _posts -name "${date}-*mayday*")
-if [ -z "${mayday_files}" ]; then
-./new_post "mayday mayday mayday"  << EOF
+---
+layout: post
+title:  "mayday mayday mayday"
+date:   2019-01-16 09:01:28
+categories: active
+---
+
 Liebe KollegInnen,
 
 die ist eine automatisch erstelle Nachricht.
@@ -19,5 +21,3 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 
 Viele liebe Grüße
 Proventa Watchdog
-EOF
-fi
