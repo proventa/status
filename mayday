@@ -3,7 +3,7 @@ date=`date '+%F'`
 mayday_files=$(find _posts -name "${date}-*mayday*")
 if [ -z "${mayday_files}" ]; then
 pushd ~/it-status
-./new_post "mayday mayday mayday" 2>/dev/null << EOF
+./new_post "mayday mayday mayday" >/dev/null << EOF
 Liebe KollegInnen,
 
 die ist eine automatisch erstelle Nachricht.
