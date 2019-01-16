@@ -17,7 +17,7 @@ cat >$file <<EOF
 ---
 layout: post
 title:  "$title"
-date:   $date $time
+date:   $date $time +0100
 categories: active
 ---
 
