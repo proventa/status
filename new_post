@@ -7,7 +7,7 @@ if [ -z "$title" ]; then
   read title
 fi
 filetitle=$(echo $title | tr ' ' '-')
-tempfile=$(tempfile)
+tempfile=$(mktemp)
 file="_posts/${date}-${filetitle}.markdown"
 editor="nano"
 if [ -n "$VISUAL" ]; then
@@ -22,14 +22,20 @@ categories: active
 ---
 
 EOF
+if [ -t 0 ]; then
 cp $file $tempfile
 $editor +100 $file
 if diff -q $file $tempfile >/dev/null; then
   echo "file not changed. aborting..."
   rm $file
-else
-  git add .
-  git commit -m "new post: $title"
-  git push
+  exit 1
 fi
 rm $tempfile
+else 
+  cat >> $file
+fi
+
+git add .
+git commit -m "new post: $title"
+git push
+
