@@ -2,8 +2,8 @@
 date=`date '+%F'`
 mayday_files=$(find _posts -name "${date}-*mayday*")
 if [ -z "${mayday_files}" ]; then
-pushd ~/it-status
-./new_post "mayday mayday mayday" >/dev/null << EOF
+pushd ~/it-status >/dev/null
+./new_post "mayday mayday mayday" >/dev/null  2>&1 << EOF
 Liebe KollegInnen,
 
 die ist eine automatisch erstelle Nachricht.
@@ -21,5 +21,6 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 Viele liebe Grüße
 Proventa Watchdog
 EOF
-$HOME/.gem/ruby/2.5.0/bin/jekyll build --destination ../html/
+bundle exec jekyll build --destination ../html/
+popd >/dev/null
 fi
