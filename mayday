@@ -1,0 +1,8 @@
+#!/bin/sh
+date=`date '+%F'`
+mayday_files=$(find _posts -name "${date}-*mayday*")
+if [ -z "${mayday_files}" ]; then
+./new_post "mayday mayday mayda"  << EOF
+we have mayday
+EOF
+fi
