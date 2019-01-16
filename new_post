@@ -17,6 +17,7 @@ cat >$file <<EOF
 ---
 layout: post
 title:  "$title"
+timezone: Europe/Berlin
 date:   $date $time
 categories: active
 ---

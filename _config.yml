@@ -15,4 +15,6 @@ include:
   - public_status.html
 exclude: 
   - vendor
-timezone: Etc/UTC
+  - mayday
+  - new_post
+timezone: Europe/Berlin
