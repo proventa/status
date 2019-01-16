@@ -21,6 +21,6 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 Viele liebe Grüße
 Proventa Watchdog
 EOF
-$HOME/.gem/ruby/2.5.0/bin/jekyll build --destination ../html/
+bundle exec jekyll build --destination ../html/
 popd >/dev/null
 fi
