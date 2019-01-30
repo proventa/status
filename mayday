@@ -21,6 +21,6 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 Viele liebe Grüße
 Proventa Watchdog
 EOF
-/package/host/localhost/ruby-2.5/bin/bundle exec jekyll build --destination ../html/
+/package/host/localhost/ruby-2.5/bin/bundle exec jekyll build --destination ../html/ >/dev/null
 popd >/dev/null
 fi
