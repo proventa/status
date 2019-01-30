@@ -2,7 +2,7 @@
 layout: post
 title:  "mayday mayday mayday"
 date:   2019-01-30 08:53:42 +0100
-categories: active
+categories: done
 ---
 
 Liebe KollegInnen,
@@ -21,3 +21,8 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 
 Viele liebe Grüße
 Proventa Watchdog
+
+update (30.1. 09:00)
+====================
+
+Es war ein VPN Problem in der HH1. Ein reboot des Routers hat das Problem behoben.
