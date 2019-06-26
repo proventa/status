@@ -92,6 +92,7 @@ defaultContentLanguage: de
 # Example: https://status.example.com/
 baseURL: https://status.proventa.io
 
+publishDir: /home/provit/html
 ############################################################
 # +------------------------------------------------------+ #
 # |                   Preferences                        | #
