@@ -1,7 +1,7 @@
 #!/bin/bash
 pushd ~/it-status >/dev/null
 date=`date '+%F'`
-mayday_files=$(find _posts -name "${date}-*mayday*")
+mayday_files=$(find content/issues -name "${date}-*mayday*")
 if [ -z "${mayday_files}" ]; then
 ./new_post "mayday mayday mayday" >/dev/null  2>&1 << EOF
 Liebe KollegInnen,
