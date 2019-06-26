@@ -8,7 +8,7 @@ if [ -z "$title" ]; then
 fi
 filetitle=$(echo $title | tr ' ' '-')
 tempfile=$(mktemp)
-file="_posts/${date}-${filetitle}.markdown"
+file="content/issues/${date}-${filetitle}.markdown"
 editor="nano"
 if [ -n "$VISUAL" ]; then
     editor=$VISUAL
