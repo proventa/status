@@ -21,6 +21,5 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 Viele liebe Grüße
 Proventa Watchdog
 EOF
-hugo
 popd >/dev/null
 fi
