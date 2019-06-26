@@ -19,7 +19,4 @@ Wir werden hier berichten wenn es wieder geht.
 mfg
 eurer Infrastruktur-Team
 
-[21:00] update
---------------
-
-Laut qualityhosting müsste jetzt alles wieder rund laufen
+*Update* - Laut qualityhosting müsste jetzt alles wieder rund laufen. {{< track "2014-10-09 21:00:00" >}}

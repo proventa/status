@@ -21,8 +21,7 @@ Wir informieren euch hier sobald die Tokens wieder funktionieren und neue ausgel
 mfg
 Euer IT-Helpdesk
 
-update:
-Das Gäste wifi ist jetzt wieder mit Vouchern aktiv. Es ist aber unverschlüsselt weil das sowieso keinen Unterschied macht.
+*Update* - Das Gäste wifi ist jetzt wieder mit Vouchern aktiv. Es ist aber unverschlüsselt weil das sowieso keinen Unterschied macht.
 
 mfg
 Clemens Bergmann

@@ -22,7 +22,4 @@ Qualityhosting ist an der Lösung des problems dran.
 Vielen Dank
 Eure IT-Admins
 
-[08:00] Update
---------------
-
-laut Qualityhosting ist das problem seit heute Nacht 01:00 Uhr gelöst.
+*Update* - laut Qualityhosting ist das problem seit heute Nacht 01:00 Uhr gelöst. {{< track "2014-10-28 08:00:00" >}}

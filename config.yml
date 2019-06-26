@@ -107,14 +107,19 @@ params:
   systems:
     - name: Filoo
       description: Das RZ in Frankfurt
+      category: Uncategorized
     - name: Untermainkai
       description: Standort Frankfurt
+      category: Uncategorized
     - name: HH1
       description: Projektbüro Darmstadt
+      category: Uncategorized
     - name: Homepage
       description: Die proventa.de homepage
+      category: Uncategorized
     - name: Mails
       description: Die E-Mails
+      category: Uncategorized
 
   # What date format to use?
   #
@@ -161,10 +166,11 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+    - name: Support
+      link: https://support.proventa.io
+    - name: Dokuwiki
+      link: https://pm.proventa.io/projects/it-dokuwiki/wiki/
 
   # Auto refresh the page
   # every ~5 min

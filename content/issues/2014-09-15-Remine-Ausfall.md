@@ -12,6 +12,4 @@ affected:
 
 Wir haben ein Problem mit dem Redmine. Wir arbeiten daran.
 
-### [12:00] update
-
-Es müsste jetzt wieder gehen.
+*Update* - Es müsste jetzt wieder gehen. {{< track "2014-09-15 12:00:00" >}}

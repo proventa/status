@@ -16,9 +16,9 @@ fi
 cat >$file <<EOF
 ---
 title:  "$title"
-date:   $date $time +0100
+date:   $date $time
 #resolved: true
-#resolvedWhen: $date $time +0100
+#resolvedWhen: $date $time
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue

@@ -27,11 +27,7 @@ klotho
 wbms-dev-integration
 idma-dev-int
 
-update [11:30]
-==============
-
-Da die VPN Verbindung nicht dringen gebraucht wird ist diese vorerst deaktiviert worden.
-
+*Update* - Da die VPN Verbindung nicht dringen gebraucht wird ist diese vorerst deaktiviert worden. {{< track "2014-11-12 11:30:00" >}}
 
 Viele Grüße
 Eure Admins

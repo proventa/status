@@ -1,8 +1,8 @@
 ---
 title:  "mayday mayday mayday"
-date:   2019-01-30 08:53:42 +0100
+date:   2019-01-30 08:53:42
 resolved: true
-resolvedWhen: 2019-01-30 08:53:42 +0100
+resolvedWhen: 2019-01-30 09:00:00
 # Possible severity levels: down, disrupted, notice
 severity: notice
 section: issue
@@ -29,7 +29,4 @@ Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben hab
 Viele liebe Grüße
 Proventa Watchdog
 
-update (30.1. 09:00)
-====================
-
-Es war ein VPN Problem in der HH1. Ein reboot des Routers hat das Problem behoben.
+*Update* - Es war ein VPN Problem in der HH1. Ein reboot des Routers hat das Problem behoben. {{< track "2019-01-30 09:00:00" >}}

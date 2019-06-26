@@ -12,6 +12,4 @@ affected:
 
 Zur Zeit haben wir eine Störung unseres zentralen Mysql Servers wir sind bereits daran das zu beheben.
 
-### [08:30] Update:
-
-Wir konnten das Problem beheben. Es sollte alles wieder gehen.
+*Update* - Wir konnten das Problem beheben. Es sollte alles wieder gehen. {{< track "2014-08-12 08:30:00" >}}

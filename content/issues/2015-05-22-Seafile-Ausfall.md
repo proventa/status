@@ -12,6 +12,4 @@ affected:
 
 Der Server ist zur Zeit nicht erreichbar. Wir sind dabei das Problem zu beheben.
 
-[18:40] Update:
-
-Seafile wieder voll erreichbar
+*Update* - Seafile wieder voll erreichbar. {{< track "2015-05-22 18:40:00" >}}

@@ -12,11 +12,7 @@ affected:
 
 Am Wochenende werden wir unseren neuen DNS-Server in Betrieb nehmen. Dadurch kann es zu Ausfällen in der Domain-Auflösung und der Zustellung von Systemnachrichten kommen.
 
-
-[14-10-19-20:00] Update
------------------------
-
-Die Umstellung des DNS war erfolgreich. Solltet ihr noch Störungen feststellen, schreibt uns bitte ein Ticket.
+*Update* - Die Umstellung des DNS war erfolgreich. Solltet ihr noch Störungen feststellen, schreibt uns bitte ein Ticket. {{< track "2014-10-14 20:00:00" >}}
 
 Vielen Dank
 Eure IT-Admins
