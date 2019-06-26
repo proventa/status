@@ -15,10 +15,17 @@ if [ -n "$VISUAL" ]; then
 fi
 cat >$file <<EOF
 ---
-layout: post
 title:  "$title"
 date:   $date $time +0100
-categories: active
+#resolved: true
+#resolvedWhen: $date $time +0100
+# Possible severity levels: down, disrupted, notice
+severity: down
+section: issue
+affected:
+  - Filoo
+  - Untermainkai
+  - HH1
 ---
 
 EOF
@@ -31,11 +38,10 @@ if diff -q $file $tempfile >/dev/null; then
   exit 1
 fi
 rm $tempfile
-else 
+else
   cat >> $file
 fi
 
 git add .
 git commit -m "new post: $title"
 git push
-

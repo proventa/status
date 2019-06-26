@@ -1,8 +1,14 @@
 ---
-layout: post
 title:  "Gäste Wifi zur Zeit ohne Tokens"
 date:   2015-04-23 08:48:34
-categories: done
+resolved: true
+resolvedWhen: 2015-04-23 08:48:34
+# Possible severity levels: down, disrupted, notice
+severity: disrupted
+section: issue
+affected:
+  - Untermainkai
+  - HH1
 ---
 
 Leider funktionieren die Tokens welche für das Gäste Wifi ausgelegt wurden zur Zeit nicht.

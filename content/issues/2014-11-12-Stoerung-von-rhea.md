@@ -1,8 +1,13 @@
 ---
-layout: post
 title:  "Störung eines Teils der Infrastruktur"
 date:   2014-11-12 10:30:00
-categories: done
+resolved: true
+resolvedWhen: 2014-11-12 11:30:00
+# Possible severity levels: down, disrupted, notice
+severity: disrupted
+section: issue
+affected:
+  - Untermainkai
 ---
 
 wir arbeiten gerade daran.

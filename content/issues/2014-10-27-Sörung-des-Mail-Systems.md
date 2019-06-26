@@ -1,8 +1,13 @@
 ---
-layout: post
 title:  "Störung des mail systems"
 date:   2014-10-27 18:30:00
-categories: done
+resolved: true
+resolvedWhen: 2014-10-28 01:00:00
+# Possible severity levels: down, disrupted, notice
+severity: disrupted
+section: issue
+affected:
+  - Mails
 ---
 
 
@@ -21,5 +26,3 @@ Eure IT-Admins
 --------------
 
 laut Qualityhosting ist das problem seit heute Nacht 01:00 Uhr gelöst.
-
-

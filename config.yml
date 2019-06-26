@@ -64,7 +64,7 @@ buildFuture: true
 #
 # See:  https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 # Also: https://www.w3schools.com/tags/ref_language_codes.asp
-languageCode: en
+languageCode: de
 
 # What translation file should cState use?
 # You can also define whether missing
@@ -78,7 +78,7 @@ languageCode: en
 # than English! When tested with Lithuanian,
 # it would add unnecesary placeholders to
 # values that were intentionally empty.
-defaultContentLanguage: en
+defaultContentLanguage: de
 
 # What is the hostname or path to the root?
 # Where is the site hosted?
@@ -105,11 +105,16 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-    - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Filoo
+      description: Das RZ in Frankfurt
+    - name: Untermainkai
+      description: Standort Frankfurt
+    - name: HH1
+      description: Projektbüro Darmstadt
+    - name: Homepage
+      description: Die proventa.de homepage
+    - name: Mails
+      description: Die E-Mails
 
   # What date format to use?
   #
@@ -120,8 +125,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM
-  shortDateFormat: 15:04 — Jan 2
+  dateFormat: 2. January 2006 15:04
+  shortDateFormat: 02.01. 15:04
 
   # What header design should we use?
   #
@@ -150,7 +155,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Wir monitoren die Infrastruktur ständig und sagen hier bescheid wenn etwas gravierend falsch läuft.
 
   # Tabs on homepage
   # Uncomment to enable.

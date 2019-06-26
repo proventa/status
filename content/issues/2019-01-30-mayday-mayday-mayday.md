@@ -1,8 +1,15 @@
 ---
-layout: post
 title:  "mayday mayday mayday"
 date:   2019-01-30 08:53:42 +0100
-categories: done
+resolved: true
+resolvedWhen: 2019-01-30 08:53:42 +0100
+# Possible severity levels: down, disrupted, notice
+severity: notice
+section: issue
+affected:
+  - Filoo
+  - Untermainkai
+  - HH1
 ---
 
 Liebe KollegInnen,
