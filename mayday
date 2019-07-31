@@ -3,22 +3,18 @@ pushd ~/it-status >/dev/null
 date=`date '+%F'`
 mayday_files=$(find content/issues -name "${date}-*mayday*")
 if [ -z "${mayday_files}" ]; then
-./new_post "mayday mayday mayday" >/dev/null  2>&1 << EOF
+./new_post "mayday mayday mayday" "Filoo,Untermainkai,HH1 " >/dev/null  2>&1 << EOF
 Liebe KollegInnen,
 
-die ist eine automatisch erstelle Nachricht.
+Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
 
-Sie wird ausgelößt wenn wir eine drastische Störung in der Infrastruktur haben.
-Normalerweise bedeutet das einen Totalausfall wichtiger Komponenten.
+Vor auslösen dieser Nachricht wurde die Interne IT per Mail und Telefon alarmiert und kümmert sich aktuell um die Behebung des Problems.
 
-Vor auslösen dieser Nachricht wurde die Interne IT per Mail und Telefon über den Ausfall informiert.
-Die Kollegen kümmern sich aktuell um die Behebung des Problems.
+Die Kollegen informieren Sie, sobald es neuigkeiten gibt, an dieser Stelle.
 
-Bitte sehen Sie von nachfragen zum Status ab.
+**Bitte sehen Sie von Nachfragen zum Status ab.**
 
-Die Kollegen informieren Sie sobald wir das Problem eingegrenzt oder behoben haben an dieser Stelle.
-
-Viele liebe Grüße
+Viele liebe Grüße  
 Proventa Watchdog
 EOF
 popd >/dev/null

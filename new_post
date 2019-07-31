@@ -2,10 +2,16 @@
 date=`date '+%F'`
 time=`date '+%T'`
 title="$1"
+systems="$2"
 if [ -z "$title" ]; then
   echo -n "Title:"
   read title
 fi
+if [ -z "$systems" ]; then
+  echo -n "Affected systems (comma seperated):"
+  read systems
+fi
+
 filetitle=$(echo $title | tr ' ' '-')
 tempfile=$(mktemp)
 file="content/issues/${date}-${filetitle}.md"
@@ -13,21 +19,19 @@ editor="nano"
 if [ -n "$VISUAL" ]; then
     editor=$VISUAL
 fi
+affected=$(echo "$systems" | sed 's/,/\n  - /g')
 cat >$file <<EOF
 ---
 title:  "$title"
 date:   $date $time
-#resolved: true
+resolved: false
 #resolvedWhen: $date $time
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue
 affected:
-  - Filoo
-  - Untermainkai
-  - HH1
+  - $affected
 ---
-
 EOF
 if [ -t 0 ]; then
 cp $file $tempfile
