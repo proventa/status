@@ -4,7 +4,7 @@ date:   2019-08-03 02:23:30
 resolved: false
 #resolvedWhen: 2019-08-03 02:23:30
 # Possible severity levels: down, disrupted, notice
-severity: notice
+severity: disrupted
 section: issue
 affected:
   - Filoo
@@ -17,4 +17,4 @@ im Rahmen eines regelmäßigen Reboot-tests sind Probleme aufgetreten. Einer uns
 Mit freundlichen Grüßen
 Clemens
 
-*Update* - Wir haben einen Workaround gefunden und die Hosts laufen jetzt alle wieder. Die Services wurden getestet und sollten auch alle verfügbar sein. Wir suchen noch nach einer Dauerlösung. Bis dahin lassen wir die Benachrichtigung noch stehen. {{< track "2019-08-03 09:02:00" >}}
+*Update* - Wir haben einen Workaround gefunden und die Hosts laufen jetzt alle wieder. Die Services wurden getestet und sollten auch alle verfügbar sein. Wir suchen noch nach dem eigentlichen Problem. Bis dahin lassen wir die Benachrichtigung noch stehen. {{< track "2019-08-03 09:02:00" >}}
