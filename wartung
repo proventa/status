@@ -1,0 +1,20 @@
+#!/bin/bash
+default_date=`date '+%F'`
+read -p "Datum [${default_date}]: " date
+date=${date:-$default_date}
+echo $date
+exit 1
+./new_post "geplante Downtime" "Filoo,Untermainkai,HH1 " >/dev/null  2>&1 << EOF
+Liebe KollegInnen,
+
+Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
+
+Vor auslösen dieser Nachricht wurde die Interne IT per Mail und Telefon alarmiert und kümmert sich aktuell um die Behebung des Problems.
+
+Die Kollegen informieren Sie, sobald es neuigkeiten gibt, an dieser Stelle.
+
+**Bitte sehen Sie von Nachfragen zum Status ab.**
+
+Viele liebe Grüße  
+Proventa Watchdog
+EOF
