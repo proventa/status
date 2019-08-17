@@ -3,14 +3,21 @@ date=`date '+%F'`
 time=`date '+%T'`
 title="$1"
 systems="$2"
+serverity="$3"
 if [ -z "$title" ]; then
-  echo -n "Title:"
+  echo "Title:"
   read title
 fi
 if [ -z "$systems" ]; then
-  echo -n "Affected systems (comma seperated):"
+  systems_options=$(grep '^affected:' --after-context=5 content/issues/*.md   | grep -- '-  - ' | cut -d ' ' -f 4 | sort -u | tr '\n' ',')
+  echo "Affected systems (comma seperated; eg. ${systems_options}...):"
   read systems
 fi
+if [ -z "$severity" ]; then
+  echo "Severirty (down, disrupted or notice)"
+  read severity
+fi
+
 
 filetitle=$(echo $title | tr ' ' '-')
 tempfile=$(mktemp)
@@ -27,7 +34,7 @@ date:   $date $time
 resolved: false
 #resolvedWhen: $date $time
 # Possible severity levels: down, disrupted, notice
-severity: down
+severity: $severity
 section: issue
 affected:
   - $affected
