@@ -4,7 +4,7 @@ date:   2019-08-03 02:23:30
 resolved: false
 #resolvedWhen: 2019-08-03 02:23:30
 # Possible severity levels: down, disrupted, notice
-severity: disrupted
+severity: notice
 section: issue
 affected:
   - Filoo
