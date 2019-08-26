@@ -1,11 +1,11 @@
 #!/bin/bash
 pushd ~/it-status >/dev/null
-git fetch >/dev/null
-git reset --hard origin/master >/dev/null
+git fetch >/dev/null 2>&1
+git reset --hard origin/master >/dev/null 2>&1
 date=`date '+%F'`
 mayday_files=$(find content/issues -name "${date}-*mayday*")
 if [ -z "${mayday_files}" ]; then
-./new_post "mayday mayday mayday" "Filoo,Untermainkai,HH1 " >/dev/null  2>&1 << EOF
+./new_post "mayday mayday mayday" "Filoo,Untermainkai,HH1" "down" >/dev/null  2>&1 << EOF
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.

@@ -1,8 +1,8 @@
 ---
 title:  "mayday mayday mayday"
 date:   2019-08-21 19:01:09
-resolved: false
-#resolvedWhen: 2019-08-21 19:01:09
+resolved: true
+resolvedWhen: 2019-08-21 20:01:09
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue
