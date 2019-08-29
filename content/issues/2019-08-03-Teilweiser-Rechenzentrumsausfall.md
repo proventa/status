@@ -1,14 +1,16 @@
 ---
 title:  "Teilweiser Rechenzentrumsausfall"
 date:   2019-08-03 02:23:30
-resolved: false
-#resolvedWhen: 2019-08-03 02:23:30
+Resolved: true
+resolvedWhen: 2019-08-27 23:30:30
 # Possible severity levels: down, disrupted, notice
 severity: notice
 section: issue
 affected:
   - Filoo
 ---
+
+*Update* - Im Rahmen des Debian 10 Upgrades haben wir die Physiken nochmal neu gestaretet. Das verlief erfolgreich. Damit ist das Problem auchbehoben. {{< track "2019-08-27 23:30:00" >}}
 
 *Update* - Wir haben einen Workaround gefunden und die Hosts laufen jetzt alle wieder. Die Services wurden getestet und sollten auch alle verfügbar sein. Wir suchen noch nach dem eigentlichen Problem. Bis dahin lassen wir die Benachrichtigung noch stehen. {{< track "2019-08-03 09:02:00" >}}
 
