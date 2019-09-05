@@ -90,7 +90,7 @@ defaultContentLanguage: de
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://status.proventa.io
+baseURL: https://it-status.proventa.de
 
 ############################################################
 # +------------------------------------------------------+ #
