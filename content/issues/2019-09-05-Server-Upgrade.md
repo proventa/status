@@ -1,5 +1,5 @@
 ---
-title:  "Hardware Upgrade am WE 20.-22.9."
+title:  "Server-Upgrade am WE 20.-22.9."
 date:   2019-09-05 09:00:00
 resolved: false
 #resolvedWhen: 2019-08-27 23:30:00
