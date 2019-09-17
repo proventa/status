@@ -11,7 +11,8 @@ affected:
   - Untermainkai
   - HH1
 ---
-<!-- update -->
+*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2019-09-17 00:45:00" >}}
+
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.

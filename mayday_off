@@ -10,7 +10,7 @@ if [ -n "$mayday_files" ]; then
   for file in $mayday_files; do
     sed -i 's/^resolved: false/resolved: true/g' "${file}"
     sed -i "s/^#resolvedWhen:.*/resolvedWhen: ${date}/g" "${file}"
-    sed -i "s/^<!-- update -->/${message}\n/2" "${file}"
+    sed -i "s/^<!-- update -->/${message}\n/g" "${file}"
   done
   git add .
   git commit -m "mayday_off: ${date}"
