@@ -11,7 +11,7 @@ affected:
   - Untermainkai
   - HH1
 ---
-{{/*update*/}}
+<!-- update -->
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.

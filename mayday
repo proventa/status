@@ -7,7 +7,7 @@ git fetch >/dev/null 2>&1
 git reset --hard origin/master >/dev/null 2>&1
 
 ./new_post "mayday mayday mayday" "Filoo,Untermainkai,HH1" "down" >/dev/null  2>&1 << EOF
-{{/*update*/}}
+<!-- update -->
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
