@@ -1,8 +1,8 @@
 ---
 title:  "mayday mayday mayday"
 date:   2019-09-17 00:31:11
-resolved: false
-#resolvedWhen: 2019-09-17 00:31:11
+resolved: true
+resolvedWhen: 2019-09-17 09:15:00
 # Possible severity levels: down, disrupted, notice
 severity: Liebe KollegInnen,
 section: issue

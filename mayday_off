@@ -1,0 +1,16 @@
+#!/bin/sh
+pushd ~/it-status >/dev/null
+git fetch >/dev/null 2>&1
+git reset --hard origin/master >/dev/null 2>&1
+date=$(date '+%F %R:%S')
+mayday_files=$(egrep -l '^resolved: false' content/issues/*mayday.md)
+if [ -n "$mayday_files" ]; then
+  for file in $mayday_files; do
+   sed -i 's/^resolved: false/resolved: true/g' "${file}"
+   sed -i "s/^#resolvedWhen:.*/resolvedWhen: ${date}/g" "${file}"
+  done
+  git add .
+  git commit -m "mayday_off: ${date}"
+  git push
+fi
+popd >/dev/null
