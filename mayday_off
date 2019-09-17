@@ -2,13 +2,15 @@
 pushd ~/it-status >/dev/null
 date=$(date '+%F %R:%S')
 mayday_files=$(egrep -l '^resolved: false' content/issues/*mayday.md)
+message="*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track \"${date}\" >}}"
 if [ -n "$mayday_files" ]; then
   git fetch >/dev/null 2>&1
   git reset --hard origin/master >/dev/null 2>&1
 
   for file in $mayday_files; do
-   sed -i 's/^resolved: false/resolved: true/g' "${file}"
-   sed -i "s/^#resolvedWhen:.*/resolvedWhen: ${date}/g" "${file}"
+    sed -i 's/^resolved: false/resolved: true/g' "${file}"
+    sed -i "s/^#resolvedWhen:.*/resolvedWhen: ${date}/g" "${file}"
+    sed -i "s/^\/\/ update/${message}\n/2" "${file}"
   done
   git add .
   git commit -m "mayday_off: ${date}"

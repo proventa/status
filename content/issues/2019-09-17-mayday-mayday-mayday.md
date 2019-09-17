@@ -4,13 +4,15 @@ date:   2019-09-17 00:31:11
 resolved: true
 resolvedWhen: 2019-09-17 00:45:00
 # Possible severity levels: down, disrupted, notice
-severity: Liebe KollegInnen,
+severity: down
 section: issue
 affected:
   - Filoo
   - Untermainkai
   - HH1
 ---
+// update
+Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
 
