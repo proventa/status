@@ -12,7 +12,10 @@ affected:
   - HH1 
 ---
 
+*Update* - Nach einigem Heckmeck konnte der Kopiervorgang gestartet werden. Das kopieren geht etwas langsamer als erwartet. Aktuelle Hochrechnungen gehen davon aus, dass wir bis morgen Abend (ca. 20:00 Uhr) fertig sein sollten. {{< track "2019-09-20 18:28:00" >}}
+
 *Update* - Server sind runter gefahren. {{< track "2019-09-20 16:00:00" >}}
+
 *Update* - Das Monitoring ist ausgeschaltet. Es kann losgehen {{< track "2019-09-20 15:16:00" >}}
 
 Am Wochenende 20.-22.09. werden wir einen Teil unserer Server von HDDs auf SSDs umstellen.
