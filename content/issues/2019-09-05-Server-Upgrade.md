@@ -4,13 +4,15 @@ date:   2019-09-05 09:00:00
 resolved: false
 #resolvedWhen: 2019-08-27 23:30:00
 # Possible severity levels: down, disrupted, notice
-severity: notice
+severity: down
 section: issue
 affected:
   - Filoo
   - Untermainkai
   - HH1 
 ---
+
+*Update* - Das Monitoring ist ausgeschaltet. Es kann losgehen {{< track "2019-09-20 15:16:00" >}}
 
 Am Wochenende 20.-22.09. werden wir einen Teil unserer Server von HDDs auf SSDs umstellen.
 Daher werden wir diese Server am Freitag den 20.09. ab ca. 16:00 Uhr herunterfahren.
