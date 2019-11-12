@@ -1,0 +1,44 @@
+#!/bin/sh
+date=$(date '+%F %R:%S')
+
+file="$1"
+resolve="$2"
+if [ -z "$title" ]; then
+  echo "file to update (leave empty to update newest unresolved):"
+  read file
+fi
+if [ -z "$title" ]; then
+file=$(ls -rt content/issues/*.md | xargs egrep -l '^resolved: false' | tail -n 1)
+fi
+
+if [ -z "$resolve" ]; then
+  echo "Should the issue be resolved (true/false):"
+  read resolve
+fi
+
+case "$resolve" in
+   no|No|n|N|false|False) resolve=false;;
+   yes|Yes|y|Y|true|True) resolve=true;;
+esac
+
+if [ -t 0 ]; then
+  message="Insert your Update Here"
+else
+  message=$(cat)
+fi
+message_str="*Update* - ${message} {{< track \"${date}\" >}}"
+
+if $resolve; then
+  sed -i 's/^resolved: false/resolved: true/g' "${file}"
+  sed -i "s/^#resolvedWhen:.*/resolvedWhen: ${date}/g" "${file}"
+fi
+
+sed -i "s/^<!-- update -->/<!-- update -->\n${message_str}\n/g" "${file}"
+
+if [ -t 0 ]; then
+  $editor + $file
+fi
+ 
+git add .
+git commit -m "update: ${date}"
+git push
