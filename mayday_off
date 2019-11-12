@@ -2,13 +2,15 @@
 pushd ~/it-status >/dev/null
 date=`date '+%F'`
 mayday_files=$(find content/issues -name "${date}-*mayday*")
-if [ -z "${mayday_files}" ]; then
+if [ -n "${mayday_files}" ]; then
 
   git fetch >/dev/null 2>&1
   git reset --hard origin/master >/dev/null 2>&1
 
   for file in $mayday_files; do
-   echo "Das Problem scheint behoben zu sein. Proventa Watchdog" | ./update_post "${file}" true >/dev/null 2>&1
+   ./update_post "${file}" true <<EOF
+Das Problem scheint behoben zu sein. Proventa Watchdog
+EOF
   done
 fi
 

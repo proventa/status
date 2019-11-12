@@ -1,8 +1,8 @@
 ---
 title:  "DNS Ausfall im Rechenzentrum"
 date:   2019-11-12 13:52:34
-resolved: false
-#resolvedWhen: 2019-11-12 16:32:32
+resolved: true
+resolvedWhen: 2019-11-12 17:09:13
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
