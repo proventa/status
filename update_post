@@ -9,6 +9,7 @@ if [ -z "$title" ]; then
 fi
 if [ -z "$title" ]; then
 file=$(ls -rt content/issues/*.md | xargs egrep -l '^resolved: false' | tail -n 1)
+echo "updating file: ${file}"
 fi
 
 if [ -z "$resolve" ]; then
@@ -17,8 +18,8 @@ if [ -z "$resolve" ]; then
 fi
 
 case "$resolve" in
-   no|No|n|N|false|False) resolve=false;;
    yes|Yes|y|Y|true|True) resolve=true;;
+   *) resolve=false;;
 esac
 
 if [ -t 0 ]; then
@@ -27,6 +28,11 @@ else
   message=$(cat)
 fi
 message_str="*Update* - ${message} {{< track \"${date}\" >}}"
+
+editor="nano"
+if [ -n "$VISUAL" ]; then
+    editor=$VISUAL
+fi
 
 if $resolve; then
   sed -i 's/^resolved: false/resolved: true/g' "${file}"
@@ -39,6 +45,6 @@ if [ -t 0 ]; then
   $editor + $file
 fi
  
-git add .
-git commit -m "update: ${date}"
-git push
+#git add .
+#git commit -m "update: ${date}"
+#git push
