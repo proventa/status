@@ -230,7 +230,7 @@ params:
   # disrupted: "cc4400"
   # down: "e60000"
   # notice: "24478f"
-  brand: "0a0c0f"
+  brand: "f6f1ea"
   ok: "008000"
   disrupted: "cc4400"
   down: "e60000"
@@ -271,3 +271,24 @@ preserveTaxonomyNames: true
 
 taxonomies:
   affected: affected
+
+# Should incident history be separated
+# like in an archive view?
+#
+# Note: This WILL disable pagination.
+#
+# Default: `yearly`
+# STRING; `monthly`, `yearly`, `none`
+incidentHistoryFormat: "monthly"
+
+outputs:
+  page:
+    - html
+    - json
+  section:
+    - html
+    - rss
+  home:
+    - html
+    - json
+    - rss
