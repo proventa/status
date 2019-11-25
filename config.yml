@@ -151,6 +151,9 @@ params:
     - name: Mails
       description: Die E-Mails
       category: Services
+    - name: Telkos
+      description: Die Telefonkonferenzen
+      category: Services
 
   # What date format to use?
   #
@@ -191,7 +194,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: Wir monitoren die Infrastruktur ständig und sagen hier bescheid wenn etwas gravierend falsch läuft.
+  description: "Wir monitoren die Infrastruktur ständig und sagen hier bescheid wenn etwas gravierend falsch läuft."
 
   # Tabs on homepage
   # Uncomment to enable.
