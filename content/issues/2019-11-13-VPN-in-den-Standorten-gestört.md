@@ -1,8 +1,8 @@
 ---
 title:  "VPN in den Standorten gestört"
 date:   2019-11-13 05:46:02
-resolved: false
-#resolvedWhen: 2019-11-13 05:46:02
+resolved: true
+resolvedWhen: 2019-11-25 21:30:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 section: issue
@@ -11,6 +11,9 @@ affected:
   - Untermainkai
 ---
 <!-- update -->
+
+*Update* - Wir haben das VPN jetzt wider konfiguriert und die Standorte sind wieder normal angebunden. {{< track "2019-11-25 21:30:00" >}}
+
 Liebe KollegInnen,
 
 aktuell haben wir ein Problem mit dem Site-To-Site VPN zwischen den Standorten und dem Rechenzentrum.
