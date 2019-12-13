@@ -284,10 +284,14 @@ taxonomies:
 # STRING; `monthly`, `yearly`, `none`
 incidentHistoryFormat: "monthly"
 
+outputFormats:
+  svg:
+    isPlainText: true
+    mediaType: image/svg+xml
+
 outputs:
   page:
     - html
-    - json
   section:
     - html
     - rss
@@ -295,3 +299,4 @@ outputs:
     - html
     - json
     - rss
+    - svg
