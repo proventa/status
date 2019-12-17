@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2019-12-17 15:02:03" >}}
+
 *Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2019-12-17 15:01:03" >}}
 
 *Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2019-12-17 15:00:04" >}}
