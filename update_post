@@ -47,5 +47,5 @@ if [ -t 0 ]; then
 fi
  
 git add .
-git commit -m "update: ${date}"
-git push
+git commit -m "update: ${date}" >/dev/null 2>&1
+git push >/dev/null 2>&1

@@ -54,5 +54,5 @@ else
 fi
 
 git add .
-git commit -m "new post: $title"
-git push
+git commit -m "new post: $title" >/dev/null 2>&1
+git push >/dev/null 2>&1
