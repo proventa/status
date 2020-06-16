@@ -1,8 +1,8 @@
 ---
 title:  "mayday mayday mayday"
 date:   2020-06-16 15:45:09
-resolved: false
-#resolvedWhen: 2020-06-16 15:45:09
+resolved: true
+resolvedWhen: 2020-06-16 17:30:07
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue
@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2020-06-16 17:30:07" >}}
+
 *Update* - Der Switch wurde ausgetauscht. Der Link ist wieder up. Wir prüfen jetzt alle Services. {{< track "2020-06-16 17:26:57" >}}
 
 *Update* - Es handelt sich um einen defekten Switch. Dieser wird aktuell getauscht. {{< track "2020-06-16 16:48:31" >}}
