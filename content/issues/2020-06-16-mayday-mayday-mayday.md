@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Alle Services wurden getestet und funktionieren. Bitte entschuldigt die Störung.{{< track "2020-06-16 17:43:29" >}}
+
 *Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2020-06-16 17:30:07" >}}
 
 *Update* - Der Switch wurde ausgetauscht. Der Link ist wieder up. Wir prüfen jetzt alle Services. {{< track "2020-06-16 17:26:57" >}}
