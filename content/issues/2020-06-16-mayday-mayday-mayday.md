@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Es handelt sich um einen defekten Switch. Dieser wird aktuell getauscht. {{< track "2020-06-16 16:48:31" >}}
+
 *Update* - Wir haben das Problem Identifizert. Es ist ein Netzwerkproblem an unserem Router. Der Rechenzentrumsbetreiber ist informiert. {{< track "2020-06-16 16:24:50" >}}
 
 Liebe KollegInnen,
