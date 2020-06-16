@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Wir haben das Problem Identifizert. Es ist ein Netzwerkproblem an unserem Router. Der Rechenzentrumsbetreiber ist informiert. {{< track "2020-06-16 16:24:50" >}}
+
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
