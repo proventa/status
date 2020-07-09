@@ -1,8 +1,8 @@
 ---
 title:  "mayday mayday mayday"
 date:   2020-07-09 16:23:09
-resolved: false
-#resolvedWhen: 2020-07-09 16:23:09
+resolved: true
+resolvedWhen: 2020-07-09 17:56:04
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue
@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2020-07-09 17:56:04" >}}
+
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
