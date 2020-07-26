@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2020-07-26 06:09:51" >}}
+
 *Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2020-07-26 05:58:03" >}}
 
 Liebe KollegInnen,
