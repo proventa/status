@@ -1,8 +1,8 @@
 ---
 title:  "mayday mayday mayday"
 date:   2022-04-14 12:00:05
-resolved: false
-#resolvedWhen: 2022-04-14 12:00:05
+resolved: true
+resolvedWhen: 2022-04-14 13:57:03
 # Possible severity levels: down, disrupted, notice
 severity: down
 section: issue
@@ -12,6 +12,8 @@ affected:
   - HH1
 ---
 <!-- update -->
+*Update* - Das Problem scheint behoben zu sein. Proventa Watchdog {{< track "2022-04-14 13:57:03" >}}
+
 Liebe KollegInnen,
 
 Diese Nachricht wurde automatisch ausgelößt weil wir eine drastische Störung (z.B. Hardwareausfall) in der Infrastruktur haben.
